@@ -1,0 +1,1 @@
+pool,billiards,snooker,cue,8 ball

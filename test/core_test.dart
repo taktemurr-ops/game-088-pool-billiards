@@ -1,19 +1,19 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_088_pool_billiards/core/achievements.dart';
-import 'package:game_088_pool_billiards/core/clock.dart';
-import 'package:game_088_pool_billiards/core/collection.dart';
-import 'package:game_088_pool_billiards/core/daily.dart';
-import 'package:game_088_pool_billiards/core/game_rules.dart';
-import 'package:game_088_pool_billiards/core/game_session.dart';
-import 'package:game_088_pool_billiards/core/integrity.dart';
-import 'package:game_088_pool_billiards/core/level_plan.dart';
-import 'package:game_088_pool_billiards/core/missions.dart';
-import 'package:game_088_pool_billiards/core/monetization.dart';
-import 'package:game_088_pool_billiards/core/progression.dart';
-import 'package:game_088_pool_billiards/core/rng.dart';
-import 'package:game_088_pool_billiards/core/save_data.dart';
-import 'package:game_088_pool_billiards/core/save_store.dart';
-import 'package:game_088_pool_billiards/core/telemetry.dart';
+import 'package:studio_core/core/achievements.dart';
+import 'package:studio_core/core/clock.dart';
+import 'package:studio_core/core/collection.dart';
+import 'package:studio_core/core/daily.dart';
+import 'package:studio_core/core/game_rules.dart';
+import 'package:studio_core/core/game_session.dart';
+import 'package:studio_core/core/integrity.dart';
+import 'package:studio_core/core/level_plan.dart';
+import 'package:studio_core/core/missions.dart';
+import 'package:studio_core/core/monetization.dart';
+import 'package:studio_core/core/progression.dart';
+import 'package:studio_core/core/rng.dart';
+import 'package:studio_core/core/save_data.dart';
+import 'package:studio_core/core/save_store.dart';
+import 'package:studio_core/core/telemetry.dart';
 import 'package:game_088_pool_billiards/game/rules.dart';
 
 class _FailingSink implements AnalyticsSink {
